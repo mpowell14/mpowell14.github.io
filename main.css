@@ -92,6 +92,17 @@ p {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+@media (max-width: 500px) {
+    .nav-pills>li {
+        width: 100%;
+    }
+
+    .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+        border-bottom: 3px solid #2ba8a8;
+        padding-bottom: 7px;
+    }
+}
+
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
