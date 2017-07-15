@@ -73,10 +73,11 @@ a:hover {
 .nav-pills>li>a {
     color: #5a5a5a;
     border-radius: 0;
+    padding: 10px 0;
 }
 
 .nav-pills>li {
-    width: 33%;
+    width: 32%;
     text-align: center;
 }
 
