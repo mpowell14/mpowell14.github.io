@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Hello World</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Zilla+Slab" rel="stylesheet">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="main.css" rel="stylesheet">
 </head>
+<!-- NAVBAR
+================================================== -->
 <body>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="background">
+                    <img class="first-slide" src="kauffmanblue.jpg" alt="First slide">
+                </div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <img class="img-circle" src="headshot.jpg" alt="Generic placeholder image" width="140" height="140">
+                        <h1>Melanie Powell</h1>
+                        <p>Student | Leader | Project Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.carousel -->
 
-<h1>Hello World!</h1>
 
+    <div class="container">
+        <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="pill" href="#home">About Me</a></li>
+            <li><a data-toggle="pill" href="#menu1">Work Experience</a></li>
+            <li><a data-toggle="pill" href="#menu2">Outreach</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h3>About Me</h3>
+                <p>Hello! My name is Melanie, and I'm a senior computer science major in the <a href="http://raikes.unl.edu/" target="_blank">Raikes School</a> at the <a href="http://www.unl.edu/" target="_blank">University of Nebraska-Lincoln</a>. I enjoy taking classes in everything from Human Computer Interaction and Software Engineering to Technical Communication and Leadership. In addition to school, I've spent the last 2 years working at <a href="http://www.gallup.com/home.aspx" target="_blank">Gallup</a>, first as a software developer intern, and more recently as a technical project manager. When I'm not in class or at work, you can find me planning fun Harry Potter themed events for the <a href="http://hpsab.unl.edu/about" target="_blank">Honors Program Student Advisory Board</a> or practicing my triple step and swing out at <a href="https://jitterbugs.org/" target="_blank">Omaha Jitterbugs</a>.</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h3>Work Experience</h3>
+                <p>Some content in menu 1.</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h3>Outreach</h3>
+                <p>Some content in menu 2.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
