@@ -46,7 +46,7 @@ h1,h2,h3,h4 {
     border: none;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
     background-color: #72dede;
 }
 
@@ -54,7 +54,7 @@ a {
     color: #2ba8a8;
 }
 
-a:hover {
+a:hover, a:focus {
     color: #72dede;
 }
 
